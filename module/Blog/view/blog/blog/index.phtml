@@ -10,7 +10,7 @@
 
     <?php foreach ($posts as $post): ?>
     <tr>
-        <td><?=$this->escapeHtml($post['title']);?></td>
+        <td><?=$this->escapeHtml($post->title);?></td>
     </tr>
     <?php endforeach; ?>
 </table>

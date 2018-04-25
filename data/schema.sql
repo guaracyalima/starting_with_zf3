@@ -1,7 +1,6 @@
-create table post(
-                  id INTEGER PRIMARY KEY  AUTOINCREMENT,
-                  title VARCHAR(255) not NULL,
-                  content text not null )
+create table post( id INTEGER PRIMARY KEY  AUTOINCREMENT,
+                    title VARCHAR(255) not NULL,
+                    content text not null )
 
 insert into post (title, content) values('Post 1', 'Content 1');
 insert into post (title, content) values('Post 2', 'Content 2');
