@@ -26,7 +26,7 @@ class PostForm extends Form
             'name' => 'title',
             'type' => 'text',
             'options' => [
-                'lable' => 'Title'
+                'label' => 'Title'
             ]
         ]);
 
@@ -34,7 +34,7 @@ class PostForm extends Form
             'name' => 'content',
             'type' => 'text',
             'options' => [
-                'lable' => 'Content'
+                'label' => 'Content'
             ]
         ]);
 

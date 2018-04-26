@@ -25,5 +25,52 @@ class PostTable
         return $this->tableGateway->select();
     }
 
+    public function save(Post $post)
+    {
+        $data = [
+          'title' => $post->title,
+          'content' => $post->content
+        ];
+
+        $id = (int) $post->id ;
+        if($id === 0)
+        {
+            $this->tableGateway->insert($data);
+            return;
+        }
+
+        //valida pra ver se o ID existe
+        if(!$this->find($id))
+        {
+            throw new \RuntimeException(sprintf(
+                'Cloud not retrieve the post %d ', $id
+            ));
+        }
+
+        //se tudo tiver correto atualiza o dado
+        $this->tableGateway->update($data, ['id' => $id]);
+    }
+
+    public function find($id)
+    {
+        $id = (int) $id;
+        $rowset = $this->tableGateway->select(['id' => $id]);
+
+        $row = $rowset->current();
+
+        if(!$row){
+            throw new \RuntimeException(sprintf(
+                'Cloud not retrieve the row %d', $id
+            ));
+        }
+
+        return $row;
+    }
+
+    public function delete($id)
+    {
+        $this->tableGateway->delete(['id' => (int) $id]);
+    }
+
     
 }
