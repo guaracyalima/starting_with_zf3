@@ -1,4 +1,4 @@
-<h1>Add new post</h1>
+<h1>Edit  new post</h1>
 
 <?php
 
@@ -11,7 +11,7 @@
     $submit =  $form->get('submit');
     $submit->setAttribute('class', 'btn btn-primary');
 
-    $form->setAttribute('action', $this->url('post', ['action' => 'add']));
+    $form->setAttribute('action', $this->url('post', ['action' => 'edit', 'id' => $id]));
     $form->prepare();
 
     echo $this->form()->openTag($form);

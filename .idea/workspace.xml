@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0f634f-ea18-47c6-90db-cf289b36cb85" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/162071e9aa52a68be6409f973c523d33b6c339bd" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/162071e9aa52a68be6409f973c523d33b6c339bd" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e265e067a96f7eacfe8de70c52a2f43c56f20d7" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e265e067a96f7eacfe8de70c52a2f43c56f20d7" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/data/blog.db" afterPath="$PROJECT_DIR$/data/blog.db" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Form/PostForm.php" afterPath="$PROJECT_DIR$/module/Blog/src/Form/PostForm.php" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" afterPath="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +43,18 @@
       <file leaf-file-name="PostForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/PostForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Model/PostTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,11 +63,38 @@
       <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="251">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
-                <element signature="e#125#150#0#PHP" expanded="true" />
+                <element signature="e#125#148#0#PHP" expanded="true" />
+                <element signature="e#490#657#0#PHP" expanded="false" />
+                <element signature="e#663#1244#0#PHP" expanded="false" />
+                <element signature="e#1250#2196#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="113" lean-forward="false" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
+              <folding>
+                <marker date="1524759637272" expanded="true" signature="167:718" ph="..." />
+                <marker date="1524759637272" expanded="true" signature="176:233" ph="..." />
+                <marker date="1524759637272" expanded="true" signature="283:684" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,18 +102,18 @@
       <file leaf-file-name="add.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state relative-caret-position="375">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module.config.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="module.config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Blog/config/module.config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="308">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -98,16 +139,17 @@
         <option value="$PROJECT_DIR$/config/modules.config.php" />
         <option value="$PROJECT_DIR$/config/autoload/global.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Model/Post.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Module.php" />
-        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0bfddfbd-2552-4f40-a642-f43b52c43089/console.sql" />
         <option value="$PROJECT_DIR$/data/load_data.php" />
         <option value="$PROJECT_DIR$/data/schema.sql" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Form/PostForm.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" />
-        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" />
         <option value="$PROJECT_DIR$/module/Blog/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Form/PostForm.php" />
+        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" />
+        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
       </list>
     </option>
   </component>
@@ -228,6 +270,56 @@
               <item name="zf3" type="b2602c69:ProjectViewProjectNode" />
               <item name="zf3" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="zf3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zf3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zf3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zf3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zf3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zf3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zf3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zf3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="module" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -241,6 +333,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module/Blog/view/blog/blog" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,12 +366,12 @@
       <updated>1524583891304</updated>
       <workItem from="1524583893520" duration="4031000" />
       <workItem from="1524669403259" duration="3832000" />
-      <workItem from="1524755941343" duration="134000" />
+      <workItem from="1524755941343" duration="3443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7997000" />
+    <option name="totallyTimeSpent" value="11306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1360" height="768" extended-state="0" />
@@ -328,7 +425,10 @@
         <state relative-caret-position="195">
           <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
-            <element signature="e#125#150#0#PHP" expanded="true" />
+            <element signature="e#125#148#0#PHP" expanded="true" />
+            <element signature="e#490#657#0#PHP" expanded="false" />
+            <element signature="e#663#1244#0#PHP" expanded="false" />
+            <element signature="e#1250#2196#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -353,6 +453,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -367,6 +468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -451,24 +553,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Model/PostTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/src/Model/Post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -564,37 +653,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/PostForm.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        <state relative-caret-position="375">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/PostForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Model/PostTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="251">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
-            <element signature="e#125#150#0#PHP" expanded="true" />
+            <element signature="e#125#148#0#PHP" expanded="true" />
+            <element signature="e#490#657#0#PHP" expanded="false" />
+            <element signature="e#663#1244#0#PHP" expanded="false" />
+            <element signature="e#1250#2196#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/config/module.config.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="23" column="113" lean-forward="false" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
+          <folding>
+            <marker date="1524759637272" expanded="true" signature="167:718" ph="..." />
+            <marker date="1524759637272" expanded="true" signature="176:233" ph="..." />
+            <marker date="1524759637272" expanded="true" signature="283:684" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
